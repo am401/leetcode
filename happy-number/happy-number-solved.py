@@ -20,7 +20,6 @@ class Solution:
                         squared_list.append(k**2)
                 squared_sum = sum(squared_list)
                 num = sum(squared_list)
-                print(num)
             return True
         else:
             return False
